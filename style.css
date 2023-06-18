@@ -1,0 +1,107 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: serif;
+	color: black;
+}
+#header{
+	height: 100vh;
+	background-image: url(images/background.webp);
+	background-position: center;
+	background-size: cover;
+}
+.container{
+	margin-right: 170px;
+	margin-left: 150px;
+}
+.logo{
+	margin-top: 40px;
+	width: 150px;
+}
+.header-text{
+	margin-top: 60px;
+	font-size: 100%;
+	font-style: sans-serif;
+	text-align: left;
+
+
+}
+.header-text p {
+	max-width: 300px;
+	margin-top: 60px;
+	font-size: 100%;
+	text-align: left;
+	color: white;
+}
+h1{
+	font-size: 30px;
+	text-align: center;
+	color: red;
+}
+.common-btn{
+	padding: 10px 40px;
+	background: transparent;
+	outline: none;
+	border: 1px solid  blue;
+	cursor: pointer;
+}
+.header-text button{
+	margin-top: 10px;
+	color: white;
+}
+#sideNav{
+	width: 200px;
+	height: 100vh;
+	position: fixed;
+	right: 0;
+	top: 0;
+	background: whitesmoke;
+	z-index: 2;
+	
+}
+nav ul li{
+	list-style: none;
+	margin: 30px 10px;
+}
+nav ul li a{
+	text-decoration: none;
+	color: black;
+}
+#ABOUT{
+	padding: 100px 0;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.ABOUT-left-col{
+	flex-basis: 40%;
+}
+.ABOUT-left-col img{
+	width: 100%;
+
+}
+.ABOUT-right-col{
+	flex-basis: 40%;
+	text-align: right;
+}
+.ABOUT-text{
+	max-width: 600px;
+	margin-right: 40px;
+	display: inline-block;
+}
+form{
+	max-width: 300px;
+	margin: 20px 0;
+}
+form input{
+	width: 100px;
+	padding: 10px 20px;
+	margin-bottom: 5px;
+	outline: none;
+	box-sizing: border-box;
+	border: 2px solid blue;
+}
+
+
+
